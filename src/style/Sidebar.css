@@ -1,0 +1,28 @@
+aside {
+  grid-area: sidebar;
+  background-color: var(--functional-color);
+  display: flex;
+  flex-flow: column;  
+  gap: 50px;
+  padding-top: 15%;  
+}
+
+aside>div:first-child {
+  font-size: 1.7rem;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  color: #fff;    
+}
+
+aside>div:first-child>svg {
+  width: 2rem;
+  height: 2rem;
+}
+
+aside>.links,.system {
+  display: flex;
+  flex-flow: column;
+  gap: 20px;  
+  padding: 0 10%;
+}

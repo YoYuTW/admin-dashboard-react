@@ -1,0 +1,20 @@
+.trending {
+  display: grid;
+  grid-template: 3rem / 3rem 1fr;
+  place-items: center;
+  padding: 10px 0;
+}
+
+.trending>div:last-child {
+  justify-self: start;
+  display: grid;
+  grid-template-rows: repeat(2,1fr);
+  place-items: center start;
+}
+
+.org {
+  color: gray;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

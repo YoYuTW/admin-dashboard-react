@@ -1,0 +1,30 @@
+.project {
+  max-height: 250px;
+  display: flex;
+  flex-flow: column;
+  background-color: white;
+  border: green 1px solid;
+  box-shadow: 
+    2px 2px rgba(0,0,0,0.2),
+    inset 10px 0 rgb(235,166,32);
+  border-radius: 5px;
+  padding: 20px 30px 15px;
+}
+
+.project>h4 {
+  margin: 0;
+}
+
+.project>p {  
+  font-size: 18px;
+  flex: 1;
+  color: gray;
+  overflow-y: scroll;
+}
+
+.project>div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 5px;
+}

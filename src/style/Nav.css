@@ -1,0 +1,74 @@
+nav {
+  grid-area: nav;
+  background-color: #fff;
+  padding: 0.5rem 1.5rem;
+  display: grid;
+  grid-template: 1fr 1fr / minmax(300px, 20vw) 1fr 1fr minmax(300px, 20vw);
+  grid-template-areas: 
+    "search . . profile"
+    "greeting greeting buttons buttons";
+}
+
+.search {
+  grid-area: search;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+nav svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.search>input {
+  background-color: rgb(219,227,236);
+  border: none;
+  border-radius: 15px;
+  padding-left: 0.8rem;
+  outline: none;
+  width: 80%;
+  height: 1rem;
+  justify-self: start;
+}
+
+.personal {
+  grid-area: profile;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile-pic {
+  border: 1px black solid;
+  width: 3vh;
+  height: 3vh;
+  border-radius: 50%;
+  /*background-image: url('./profile.jpeg');*/
+  background-size: 100%;
+}
+
+.greeting {
+  grid-area: greeting;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.greeting>.profile-pic {
+  width: 5vh;
+  height: 5vh;
+}
+
+.greeting span {
+  font-size: 1.4rem;
+}
+
+nav>div:last-child {
+  grid-area: buttons;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
