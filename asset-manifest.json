@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/admin-dashboard-react/static/css/main.8ec811c5.css",
+    "main.js": "/admin-dashboard-react/static/js/main.80d35ddb.js",
+    "static/media/Roboto-Regular.ttf": "/admin-dashboard-react/static/media/Roboto-Regular.a8d6ac03c7b96b7acb62.ttf",
+    "static/media/source-fork.svg": "/admin-dashboard-react/static/media/source-fork.360b6b4ad01a3258d52a454fad18e192.svg",
+    "static/media/eye-plus-outline.svg": "/admin-dashboard-react/static/media/eye-plus-outline.2e240cd09a3f26d61c774088df19833d.svg",
+    "index.html": "/admin-dashboard-react/index.html",
+    "static/media/star-plus-outline.svg": "/admin-dashboard-react/static/media/star-plus-outline.58b3fce9d34162075eaf936017ea0ec1.svg",
+    "main.8ec811c5.css.map": "/admin-dashboard-react/static/css/main.8ec811c5.css.map",
+    "main.80d35ddb.js.map": "/admin-dashboard-react/static/js/main.80d35ddb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ec811c5.css",
+    "static/js/main.80d35ddb.js"
+  ]
+}
