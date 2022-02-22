@@ -5,3 +5,5 @@
 ## demo
 
 ![demo](./demo.png)
+
+[demo](https://yoyutw.github.io/admin-dashboard-react)
